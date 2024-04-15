@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(darkcyan, silver);
+}
+
+.central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    height: 500px;
+    color: transparent;
+    box-shadow: 5px 5px 10px black;
+    gap: 60px;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.central #inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+}
+
+p{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.central button{
+    width: 100px;
+    height: 25px;
+    background: darkblue;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.central button:hover{
+    background: blue;
+    border-radius: 12px;
+}
